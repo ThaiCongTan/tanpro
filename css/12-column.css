@@ -1,0 +1,26 @@
+/* CSS Document */
+*{margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+.container-lg{width: 1295px;
+margin: 0 auto}
+.content{width: 0;
+	height: 35px;
+	overflow: hidden;
+margin-top:-37.41px}
+.row{display: flex;
+flex-wrap: wrap;
+}
+.row>[class*="col-"]{padding: 12px}
+.justify-between{justify-content: space-between}
+.justify-around{justify-content: space-around}
+.justify-center{justify-content: center}
+.justify-end{align-content: flex-end}
+.align-center{align-items: center}
+.align-end{align-items: flex-end}
+.col-3{width: 25%;}
+.col-9{width: 70%}
+
+
+
